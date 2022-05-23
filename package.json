@@ -1,0 +1,19 @@
+{
+  "name": "platzimovies",
+  "version": "1.0.0",
+  "description": "Proyecto para el curso de consumo de API REST practico de Platzi",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosSeguessa/PlatziMovies.git"
+  },
+  "author": "Carlos Seguessa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarlosSeguessa/PlatziMovies/issues"
+  },
+  "homepage": "https://github.com/CarlosSeguessa/PlatziMovies#readme"
+}
