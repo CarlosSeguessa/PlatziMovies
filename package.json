@@ -1,8 +1,8 @@
 {
   "name": "platzimovies",
   "version": "1.0.0",
-  "description": "Proyecto para el curso de consumo de API REST practico de Platzi",
-  "main": "index.html",
+  "description": "Proyecto para curso practico de consumo API REST",
+  "main": "./src/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CarlosSeguessa/PlatziMovies/issues"
   },
-  "homepage": "https://github.com/CarlosSeguessa/PlatziMovies#readme"
+  "homepage": "https://github.com/CarlosSeguessa/PlatziMovies#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
 }
