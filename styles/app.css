@@ -544,6 +544,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 3rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -586,6 +594,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-12 {
   height: 3rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-11 {
+  height: 2.75rem;
 }
 
 .max-h-\[225px\] {
@@ -914,4 +934,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .before\:content-\[\'\2022\2022\2022\2022\'\]::before {
   --tw-content: '••••';
   content: var(--tw-content);
+}
+
+@media (min-width: 640px) {
+  .sm\:hidden {
+    display: none;
+  }
 }

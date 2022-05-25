@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700;800&family=Red+Hat+Display:wght@400;500&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="../styles/app.css"/>
     <link rel="stylesheet" href="../styles/root.css">
-  <body class="bg-[#080f28]">
+  <body class="bg-[#080f28] flex flex-col h-screen">
     
     <header id="header" class="flex flex-col w-full mt-11">
       <div class="mb-4 pl-10 ">
@@ -24,8 +24,8 @@
         </form>
       </div>
     </header>
-    <main class="flex flex-col h-screen flex-grow">
-      <section id="trendingPreview" class="pl-[24px] pr-[18px] mt-[52px]">
+    <main class="flex-grow">
+      <section id="trendingPreview" class="pl-[24px] pr-[18px] mt-[52px] sm:hidden">
         <div class="flex align-middle justify-between text-white">
           <h2 class="font-bold">Tendencias</h2>
           <button class="w-[76px] h-[31px] bg-[#3E0F64] rounded-[8px]">Ver más</button>
@@ -90,7 +90,7 @@
       </section>
     </main>
 
-    <footer class="flex w-full items-center justify-center mt-12 text-white bg-[#141a32] h-12">
+    <footer class="flex w-full items-center justify-center mt-11 text-white bg-[#141a32] h-11">
       <p>Hecho por <a class="border-b-2 border-white" href="https://github.com/CarlosSeguessa" target="_blank">Carlos Seguessa</a></p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
