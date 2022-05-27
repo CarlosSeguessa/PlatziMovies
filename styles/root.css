@@ -53,3 +53,12 @@
     width: 8px;
     height: 8px;
   }
+
+  .header-container--long {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 19.27%, rgba(0, 0, 0, 0) 29.17%),;
+    background-size: cover !important;
+    height: 480px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
