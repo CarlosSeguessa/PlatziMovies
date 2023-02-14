@@ -39,7 +39,7 @@ const createCategories = (categories, container) => {
 
   categories.forEach((category) => {
     const categorycontainer = document.createElement("div");
-    categorycontainer.setAttribute("class", "pl-3 w-[45%]");
+    categorycontainer.setAttribute("class", "pl-6 w-[45%]");
 
     const categoryTitle = document.createElement("h3");
     categoryTitle.setAttribute("id", "id" + category.id);
