@@ -12,15 +12,11 @@ const homePage = () => {
   genericSection.classList.add('hidden');
   movieDetailSection.classList.add('hidden');
   trendingtitle.classList.remove('hidden');
-
-  console.log("Home!!");
   getTrendingPreview();
   getCategoriesPreview();
 };
 
 const trendPage = () => {
-  console.log("TRENDS!");
-
   headerSection.classList.remove('header-container--long');
   headerSection.style.background = '';
   arrowBtn.classList.remove('hidden');
@@ -40,7 +36,6 @@ const trendPage = () => {
 };
 
 const searchPage = () => {
-  console.log("Search!!");
   headerSection.classList.remove('header-container--long');
   headerSection.style.background = '';
   arrowBtn.classList.remove('hidden');
@@ -60,8 +55,6 @@ const searchPage = () => {
 };
 
 const movieDetailsPage = () => {
-  console.log("moviesDetails!");
-
   headerSection.classList.add('header-container--long');
   // headerSection.style.background = '';
   arrowBtn.classList.remove('hidden');
@@ -80,8 +73,6 @@ const movieDetailsPage = () => {
 };
 
 const categoriesPage = () => {
-  console.log("Categories!!");
-
   headerSection.classList.remove('header-container--long');
   headerSection.style.background = '';
   arrowBtn.classList.remove('hidden');
@@ -103,8 +94,6 @@ const categoriesPage = () => {
 };
 
 const navigator = () => {
-  console.log({ location });
-
   if (location.hash.startsWith("#trends")) {
     trendPage();
   } else if (location.hash.startsWith("#search=")) {

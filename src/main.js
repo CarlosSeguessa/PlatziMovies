@@ -16,7 +16,7 @@ const createMovies = (movies, container) => {
 
   movies.forEach((movie) => {
     const movieContainer = document.createElement("div");
-    movieContainer.setAttribute("class", "inline-block mb-2 w-[47.5%] ");
+    movieContainer.setAttribute("class", "inline-block mb-2 w-[47.5%] lg:w-[200px]");
     movieContainer.addEventListener("click", () => {
       location.hash = `#movie=${movie.id}`;
     });
@@ -104,6 +104,7 @@ const getMovieById = async (id) => {
   const { data:movie } = await api(`movie/${id}`);
   
   const movieImgUrl = `https://image.tmdb.org/t/p/w500/${movie.poster_path}`
+  // si la pantalla es mayor a lg la imagen de fondo tiene que ser w800
 
   headerSection.style.background = `
   linear-gradient(180deg,
